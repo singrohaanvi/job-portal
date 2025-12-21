@@ -1,0 +1,27 @@
+# node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# env files
+.env
+.env.local
+
+# uploads
+backend/uploads/
+
+# logs
+logs
+*.log
+
+# history
+.history/
+
+# build
+dist/
+frontend/dist/
+
+# editor
+.vscode/
+.idea/
+.DS_Store
