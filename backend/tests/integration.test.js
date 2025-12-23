@@ -16,7 +16,6 @@ describe("Integration Testing - Job Portal", () => {
         password: "wrongpassword"
       });
 
-    // ❗ 401 is EXPECTED for invalid credentials
     expect(res.statusCode).toBe(401);
   });
 
