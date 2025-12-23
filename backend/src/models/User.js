@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
         required: true
     },
     role: {
-        type: String,
+ type: Boolean,
         enum: ["jobseeker", "employer"],
         required: true
     },
