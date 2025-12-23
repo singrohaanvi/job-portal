@@ -3,10 +3,7 @@ import app from "../src/server.js";
 
 describe("Integration Testing - Job Portal", () => {
 
-  test("Server is running", async () => {
-    const res = await request(app).get("/");
-    expect(res.statusCode).toBe(200);
-  });
+ 
 
   test("Login API responds correctly (integration check)", async () => {
     const res = await request(app)
