@@ -4,7 +4,13 @@
 // import axiosInstance from "../../utils/axiosInstance";
 // import { API_PATHS } from "../../utils/apiPaths";
 // import { useNavigate } from "react-router-dom";
-
+// import toast from "react-hot-toast";
+// import { useAuth } from "../../context/AuthContext";
+// import Navbar from "../../components/layout/Navbar";
+// import SearchHeader from "./components/SearchHeader";
+// import FilterContent from "./components/FilterContent";
+// import JobCard from "../../components/Cards/JobCard";
+// import HeroSection from "./components/HeroSection";
 
 
 // const FindJob = () => {
