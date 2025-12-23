@@ -23,7 +23,7 @@ describe("Integration Testing - Job Portal", () => {
   test("Jobs API is reachable (integration check)", async () => {
     const res = await request(app).get("/api/jobs");
 
-    // status should NOT be server crash
+    // status should not be server crash
     expect(res.statusCode).not.toBe(404);
   });
 
