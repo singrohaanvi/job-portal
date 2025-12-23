@@ -2,12 +2,7 @@ import { useEffect, useState } from "react";
 import { Save, X, Trash2, Upload } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 import axiosInstance from "../../utils/axiosInstance";
-import { API_PATHS } from "../../utils/apiPaths";
-import toast from "react-hot-toast";
-import uploadImage from "../../utils/uploadImage";
-import Navbar from "../../components/layout/Navbar";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom"; 
+ 
 
 const UserProfile = () => {
   const { user, updateUser } = useAuth();
